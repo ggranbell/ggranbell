@@ -17,8 +17,8 @@ Building intelligent systems that bridge the gap between research and real-world
 - 🎓 **Currently studying:** BS in Computer Science at the University of Santo Tomas
 - 🔬 **Research Focus:** Computer Vision, Deep Learning, Medical Imaging, Remote Sensing
 - 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — a fully offline, 8-bit aesthetic media tracker powered by local AI
-- 🏆 **Thesis Project:** Automated parasite egg classification achieving **100% accuracy** with ConvNeXt-Base + Grad-CAM
-- 🛰️ **Deep Learning:** Instance-aware building damage assessment using Mamba state-space models on satellite imagery
+- 🏆 **Thesis Project:** Instance-aware building damage assessment using Mamba state-space models on satellite imagery
+- 🛰️ **Deep Learning:** Automated parasite egg classification achieving 100% accuracy with ConvNeXt-Base + Grad-CAM
 
 ---
 
