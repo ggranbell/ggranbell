@@ -29,7 +29,7 @@ STATUS  : Currently building something retro-cool ↓
 ## 🚀 About Me
 
 - 🎓 **Currently studying:** BS in Computer Science at the University of Santo Tomas
-- 💼 **Currently working as:** **AI Engineer** at Outlier & **Systems Engineer** at JFC Corporations
+- 💼 **Currently working as:** **AI Trainer** at Outlier & **Systems Engineer** at JFC Corporations
 - 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — because I needed a way to track my 200+ backlog *and* flex my 8-bit obsession at the same time
 - 🏆 **Thesis:** Building instance-aware building damage assessment from satellite imagery using Mamba state-space models — because apparently looking at disaster zones from space is my thing
 - 🔬 **Side Project:** Got a model to identify parasite eggs with **100% accuracy** — science is cool until you realize what you're looking at
