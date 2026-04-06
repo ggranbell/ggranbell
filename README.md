@@ -1,11 +1,11 @@
 # Hi there, I'm Aaron 👋
 
-### 🧠 AI/ML Engineer | Computer Vision Researcher | Deep Learning Developer
+### 🧠 AI/ML Engineer | Computer Vision Researcher | Full Stack Developer
 
-Building intelligent systems that bridge the gap between research and real-world impact — from medical image classification to satellite-based disaster assessment.
+Building intelligent systems that bridge the gap between research and real-world impact — from medical image classification to satellite-based disaster assessment, and offline-first AI apps.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/](https://www.linkedin.com/in/aaron-james-jayin-254850267/))
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ajjayin54321@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-james-jayin-254850267/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajjayin54321@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ggranbell)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ggranbell&label=Profile%20Views&color=0e75b6&style=flat)](https://github.com/ggranbell)
@@ -16,9 +16,9 @@ Building intelligent systems that bridge the gap between research and real-world
 
 - 🎓 **Currently studying:** BS in Computer Science at the University of Santo Tomas
 - 🔬 **Research Focus:** Computer Vision, Deep Learning, Medical Imaging, Remote Sensing
+- 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — a fully offline, 8-bit aesthetic media tracker powered by local AI
 - 🏆 **Thesis Project:** Automated parasite egg classification achieving **100% accuracy** with ConvNeXt-Base + Grad-CAM
 - 🛰️ **Deep Learning:** Instance-aware building damage assessment using Mamba state-space models on satellite imagery
-- 🔥 **Currently building:** Expanding the MambaBDA architecture with instance consistency regularization on the BRIGHT disaster dataset
 
 ---
 
@@ -40,6 +40,7 @@ Building intelligent systems that bridge the gap between research and real-world
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 **Web & Deployment**  
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -66,24 +67,41 @@ Building intelligent systems that bridge the gap between research and real-world
 
 | Project | Description | Primary Tech |
 | --- | --- | --- |
+| 🕹️ **[Anime & Manga Tracker](https://github.com/ggranbell/anime-manga-tracker)** | Retro 8-bit offline media tracker with local AI recommendations via Ollama, real-time API data, and full progress tracking — no cloud, no accounts. | `JavaScript` `Vite` |
 | 🛰️ **[Instance-Aware MambaBDA](https://github.com/ggranbell/Instance-Aware-MambaBDA)** | Remote sensing change detection and building damage assessment using ChangeMamba (SSM). Extended with ICR and force-directed feature alignment on the BRIGHT disaster dataset. | `Python` `CUDA` |
-| 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base deep learning pipeline for automated microscopy-based intestinal parasite egg classification. 100% accuracy with Grad-CAM explainability + Flask web UI. | `Python` |
+| 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base deep learning pipeline for automated microscopy-based parasite egg classification. 100% accuracy with Grad-CAM XAI + Flask web UI. | `Python` |
 | 💬 **[Chatbot](https://github.com/ggranbell/chatbot)** | Conversational web interface. | `CSS` `JavaScript` |
 
 ---
 
-## 🛰️ Instance-Aware MambaBDA — What I'm Working On
+## 🕹️ Retro Anime & Manga Tracker OS — What I'm Building Now
+
+**A fully offline, 8-bit aesthetic media library powered by local AI.**
+
+[![Anime & Manga Tracker](https://img.shields.io/badge/🕹️_Anime_&_Manga_Tracker-Check_It_Out-purple?style=for-the-badge)](https://github.com/ggranbell/anime-manga-tracker)
+
+- 🎮 **8-Bit Pixel Aesthetic** — CRT scanline effects, pixel fonts, and NES.css retro containers
+- 📚 **Dual Library System** — separate tracking pipelines for **Anime** (Jikan/MAL API) and **Manga/Manhwa** (AniList GraphQL API)
+- ✅ **Smart Progress Tracking** — check off individual episodes or chapters; marking a series complete auto-fills everything
+- 🤖 **Local AI Advisor (RAG)** — connects to hardware-local LLMs via **Ollama** (e.g. `llama3.2:1b`, `qwen2.5`), pulls your Top 5 rated shows, and delivers personalized recommendations as an 8-bit NPC
+- 🛡️ **100% Private & Offline** — library persisted to `localStorage`, zero cloud, zero tracking
+
+> *Built with Vanilla JS, Vite, NES.css, Jikan API, AniList GraphQL, and Ollama.*
+
+---
+
+## 🛰️ Instance-Aware MambaBDA
 
 **Extending state-space model change detection for instance-level building damage reasoning.**
 
 [![Instance-Aware MambaBDA](https://img.shields.io/badge/🛰️_Instance--Aware_MambaBDA-Check_It_Out-blue?style=for-the-badge)](https://github.com/ggranbell/Instance-Aware-MambaBDA)
 
 - 🧠 Built on **ChangeMamba** — a spatio-temporal SSM accepted at IEEE TGRS, selected as ESI Hot & Highly Cited Paper
-- 📡 Trained and evaluated on the **BRIGHT** satellite disaster dataset (pre/post disaster imagery pairs)
+- 📡 Trained and evaluated on the **BRIGHT** satellite disaster dataset (pre/post imagery pairs)
 - 🔁 **Instance Consistency Regularization (ICR)** — enforces feature coherence within building instances after warmup
-- ⚡ **Force-Directed Loss** — compact + separation constraints on high-resolution features for sharper instance boundaries
+- ⚡ **Force-Directed Loss** — compact + separation constraints on high-resolution features for sharper boundaries
 - 🗺️ Outputs color-mapped damage predictions and localization masks per event
-- 🐳 Fully containerized with **Docker** for reproducible training and inference
+- 🐳 Fully containerized with **Docker**
 
 > *Built with Python, PyTorch, VMamba backbone, CUDA kernels, and Docker.*
 
@@ -91,21 +109,15 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ## 🔬 Parasite Egg Classifier — Thesis Project
 
-**An academic-grade CV system for automated identification of intestinal parasite eggs from microscopy images.**
+**Academic-grade CV system for automated identification of intestinal parasite eggs from microscopy images.**
 
 [![Parasite Egg Classifier](https://img.shields.io/badge/🔬_Parasite_Egg_Classifier-Check_It_Out-green?style=for-the-badge)](https://github.com/ggranbell/Parasite-Egg-Classifier)
 
 - 🏆 **100% accuracy** on a balanced test set across three parasite species using fine-tuned ConvNeXt-Base
-- 💡 **Grad-CAM XAI** — highlights morphological features (shells, plugs, internal masses) the model uses
-- 🌐 **Flask Web UI** — dark-themed drag-and-drop interface with real-time batch classification and heatmap display
+- 💡 **Grad-CAM XAI** — highlights morphological features the model relies on for each prediction
+- 🌐 **Flask Web UI** — drag-and-drop interface with real-time batch classification and heatmap display
 - 📊 **Academic Analysis Suite** — multi-seed stats, ROC/AUC curves, t-SNE embeddings, cost profiling
-- 🐳 Fully containerized with Docker for cross-platform reproducibility
-
-| Species | Morphology |
-| --- | --- |
-| *Ascaris lumbricoides* | Thick, mammillated outer shells |
-| *Hookworm* | Thin, transparent shells |
-| *Trichuris trichiura* | Barrel shape with bipolar plugs |
+- 🐳 Fully containerized with Docker
 
 > *Built with Python, PyTorch, ConvNeXt, Flask, Grad-CAM, and Docker.*
 
@@ -113,5 +125,5 @@ Building intelligent systems that bridge the gap between research and real-world
 
 *Let's connect and build something impactful!*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-james-jayin-254850267/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajjayin54321@gmail.com)
