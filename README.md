@@ -4,8 +4,8 @@
 
 Building intelligent systems that bridge the gap between research and real-world impact — from medical image classification to satellite-based disaster assessment.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/](https://www.linkedin.com/in/aaron-james-jayin-254850267/))
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ajjayin54321@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ggranbell)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ggranbell&label=Profile%20Views&color=0e75b6&style=flat)](https://github.com/ggranbell)
