@@ -1,8 +1,8 @@
-# Hi there, I'm Aaron 👋
+# Hey, I'm Aaron 👾
 
-### 🧠 AI/ML Engineer | Computer Vision Researcher | Full Stack Developer
+### 🧠 AI Engineer · Systems Engineer · Computer Vision Researcher
 
-Building intelligent systems that bridge the gap between research and real-world impact — from medical image classification to satellite-based disaster assessment, and offline-first AI apps.
+> *By day I train neural networks and squash bugs at scale. By night I'm watching anime and grinding through my backlog. The 8-bit aesthetic is not a phase.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-james-jayin-254850267/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajjayin54321@gmail.com)
@@ -12,13 +12,29 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ---
 
+## 🕹️ Player One — Select Your Info
+
+```
+NAME    : Aaron James Jayin
+CLASS   : AI Trainer / Systems Engineer / CS Student
+GUILD   : Outlier · JFC Corporation · UST
+SCHOOL  : BS Computer Science @ University of Santo Tomas
+SPEC    : Computer Vision · Deep Learning · RAG Systems
+HOBBIES : Anime · Gaming · Building things with 8-bit vibes
+STATUS  : Currently building something retro-cool ↓
+```
+
+---
+
 ## 🚀 About Me
 
 - 🎓 **Currently studying:** BS in Computer Science at the University of Santo Tomas
-- 🔬 **Research Focus:** Computer Vision, Deep Learning, Medical Imaging, Remote Sensing
-- 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — a fully offline, 8-bit aesthetic media tracker powered by local AI
-- 🏆 **Thesis Project:** Instance-aware building damage assessment using Mamba state-space models on satellite imagery
-- 🛰️ **Deep Learning:** Automated parasite egg classification achieving **100% accuracy** with ConvNeXt-Base + Grad-CAM
+- 💼 **Currently working as:** **AI Engineer** at Outlier & **Systems Engineer** at JFC Corporations
+- 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — because I needed a way to track my 200+ backlog *and* flex my 8-bit obsession at the same time
+- 🏆 **Thesis:** Building instance-aware building damage assessment from satellite imagery using Mamba state-space models — because apparently looking at disaster zones from space is my thing
+- 🔬 **Side Project:** Got a model to identify parasite eggs with **100% accuracy** — science is cool until you realize what you're looking at
+- 🛰️ **Research:** Teaching computers to assess building damage from satellite images using state-space models
+- 🤖 **Philosophy:** If it can be automated, automated it shall be
 
 ---
 
@@ -68,38 +84,55 @@ Building intelligent systems that bridge the gap between research and real-world
 | Project | Description | Primary Tech |
 | --- | --- | --- |
 | 🕹️ **[Anime & Manga Tracker](https://github.com/ggranbell/anime-manga-tracker)** | Retro 8-bit offline media tracker with local AI recommendations via Ollama, real-time API data, and full progress tracking — no cloud, no accounts. | `JavaScript` `Vite` |
-| 🛰️ **[Instance-Aware MambaBDA](https://github.com/ggranbell/Instance-Aware-MambaBDA)** | Remote sensing change detection and building damage assessment using ChangeMamba (SSM). Extended with ICR and force-directed feature alignment on the BRIGHT disaster dataset. | `Python` `CUDA` |
-| 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base deep learning pipeline for automated microscopy-based parasite egg classification. 100% accuracy with Grad-CAM XAI + Flask web UI. | `Python` |
 | 💬 **[Mola Chatbot](https://github.com/ggranbell/chatbot)** | Local-first RAG chatbot with hybrid BM25 + vector search, Cross-Encoder reranking, and multi-format document ingestion (PDF, DOCX, XLSX). Powered by Ollama — fully private, no cloud. | `Python` `FastAPI` `LangChain` |
+| 🛰️ **[Instance-Aware MambaBDA](https://github.com/ggranbell/Instance-Aware-MambaBDA)** | Remote sensing change detection and building damage assessment using ChangeMamba (SSM). Extended with ICR and force-directed feature alignment on the BRIGHT disaster dataset. | `Python` `CUDA` |
+| 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base pipeline for automated microscopy-based parasite egg classification. 100% accuracy with Grad-CAM XAI + Flask web UI. | `Python` |
 
 ---
 
-## 🕹️ Retro Anime & Manga Tracker OS — What I'm Building Now
+## 🕹️ Anime & Manga Tracker OS — What I'm Building Now
 
-**A fully offline, 8-bit aesthetic media library powered by local AI.**
+**Built this because no existing tracker had the right vibe. Now it has the right vibe.**
 
 [![Anime & Manga Tracker](https://img.shields.io/badge/🕹️_Anime_&_Manga_Tracker-Check_It_Out-purple?style=for-the-badge)](https://github.com/ggranbell/anime-manga-tracker)
 
 - 🎮 **8-Bit Pixel Aesthetic** — CRT scanline effects, pixel fonts, and NES.css retro containers
 - 📚 **Dual Library System** — separate tracking pipelines for **Anime** (Jikan/MAL API) and **Manga/Manhwa** (AniList GraphQL API)
 - ✅ **Smart Progress Tracking** — check off individual episodes or chapters; marking a series complete auto-fills everything
-- 🤖 **Local AI Advisor (RAG)** — connects to hardware-local LLMs via **Ollama** (e.g. `llama3.2:1b`, `qwen2.5`), pulls your Top 5 rated shows, and delivers personalized recommendations as an 8-bit NPC
-- 🛡️ **100% Private & Offline** — library persisted to `localStorage`, zero cloud, zero tracking
+- 🤖 **Local AI Advisor (RAG)** — connects to local LLMs via **Ollama**, pulls your Top 5 rated shows, and delivers recommendations as an 8-bit NPC
+- 🛡️ **100% Private & Offline** — library in `localStorage`, zero cloud, zero subscriptions, zero judgment for your guilty pleasure picks
 
 > *Built with Vanilla JS, Vite, NES.css, Jikan API, AniList GraphQL, and Ollama.*
 
 ---
 
-## 🛰️ Instance-Aware MambaBDA
+## 💬 Mola Chatbot — RAG System
 
-**Extending state-space model change detection for instance-level building damage reasoning.**
+**Because chatting with your own documents should be fast, private, and actually good.**
+
+[![Mola Chatbot](https://img.shields.io/badge/💬_Mola_Chatbot-Check_It_Out-orange?style=for-the-badge)](https://github.com/ggranbell/chatbot)
+
+- 🧠 **Local Intelligence** — runs Ollama models (Qwen, Llama 3) entirely on-device, your data stays yours
+- 📂 **Multi-format Ingestion** — PDF, Word, and Excel with OCR support via Tesseract + PyMuPDF
+- 🔍 **Hybrid Search** — BM25 lexical + LanceDB vector search via `EnsembleRetriever`
+- ⚡ **Cross-Encoder Reranking** — `ms-marco-MiniLM-L-6-v2` validates context before it hits the LLM
+- 🌐 **FastAPI Backend** — clean REST API with a reactive vanilla JS frontend
+- 🛡️ **100% Private** — no cloud, no tracking, all data stays local
+
+> *Built with Python, FastAPI, LangChain, LanceDB, HuggingFace, Ollama, and Tesseract OCR.*
+
+---
+
+## 🛰️ Instance-Aware MambaBDA — Thesis Project
+
+**Teaching a satellite to tell you how badly a building got wrecked. For science.**
 
 [![Instance-Aware MambaBDA](https://img.shields.io/badge/🛰️_Instance--Aware_MambaBDA-Check_It_Out-blue?style=for-the-badge)](https://github.com/ggranbell/Instance-Aware-MambaBDA)
 
-- 🧠 Built on **ChangeMamba** — a spatio-temporal SSM accepted at IEEE TGRS, selected as ESI Hot & Highly Cited Paper
-- 📡 Trained and evaluated on the **BRIGHT** satellite disaster dataset (pre/post imagery pairs)
-- 🔁 **Instance Consistency Regularization (ICR)** — enforces feature coherence within building instances after warmup
-- ⚡ **Force-Directed Loss** — compact + separation constraints on high-resolution features for sharper boundaries
+- 🧠 Built on **ChangeMamba** — IEEE TGRS accepted, ESI Hot & Highly Cited Paper
+- 📡 Trained on the **BRIGHT** satellite disaster dataset (pre/post imagery pairs)
+- 🔁 **Instance Consistency Regularization (ICR)** — enforces feature coherence within building instances
+- ⚡ **Force-Directed Loss** — compact + separation constraints for sharper instance boundaries
 - 🗺️ Outputs color-mapped damage predictions and localization masks per event
 - 🐳 Fully containerized with **Docker**
 
@@ -107,13 +140,13 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ---
 
-## 🔬 Parasite Egg Classifier — Thesis Project
+## 🔬 Parasite Egg Classifier — Side Project
 
-**Academic-grade CV system for automated identification of intestinal parasite eggs from microscopy images.**
+**100% accuracy. Would not recommend zooming in on the dataset images.**
 
 [![Parasite Egg Classifier](https://img.shields.io/badge/🔬_Parasite_Egg_Classifier-Check_It_Out-green?style=for-the-badge)](https://github.com/ggranbell/Parasite-Egg-Classifier)
 
-- 🏆 **100% accuracy** on a balanced test set across three parasite species using fine-tuned ConvNeXt-Base
+- 🏆 **100% accuracy** across three parasite species using fine-tuned ConvNeXt-Base
 - 💡 **Grad-CAM XAI** — highlights morphological features the model relies on for each prediction
 - 🌐 **Flask Web UI** — drag-and-drop interface with real-time batch classification and heatmap display
 - 📊 **Academic Analysis Suite** — multi-seed stats, ROC/AUC curves, t-SNE embeddings, cost profiling
@@ -123,27 +156,7 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ---
 
-
----
-
-## 💬 Mola Chatbot — RAG System
-
-**A high-performance, local-first RAG ecosystem powered by LangChain and Ollama.**
-
-[![Mola Chatbot](https://img.shields.io/badge/💬_Mola_Chatbot-Check_It_Out-orange?style=for-the-badge)](https://github.com/ggranbell/chatbot)
-
-- 🧠 **Local Intelligence** — runs Ollama models (Qwen, Llama 3) entirely on-device, sensitive data never leaves your machine
-- 📂 **Multi-format Ingestion** — handles PDF, Word, and Excel documents with OCR support via Tesseract + PyMuPDF
-- 🔍 **Hybrid Search** — combines BM25 lexical search with LanceDB vector embeddings via `EnsembleRetriever`
-- ⚡ **Cross-Encoder Reranking** — `ms-marco-MiniLM-L-6-v2` validates context relevance before it reaches the LLM
-- 🌐 **FastAPI Backend** — clean REST API with a reactive vanilla JS frontend, served at `localhost:8080`
-- 🛡️ **100% Private** — no cloud, no tracking, all data stays local
-
-> *Built with Python, FastAPI, LangChain, LanceDB, HuggingFace, Ollama, and Tesseract OCR.*
-
----
-
-*Let's connect and build something impactful!*
+*Let's build something — or at least talk about anime while pretending to be productive.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-james-jayin-254850267/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajjayin54321@gmail.com)
