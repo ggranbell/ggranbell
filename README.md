@@ -18,7 +18,7 @@ Building intelligent systems that bridge the gap between research and real-world
 - 🔬 **Research Focus:** Computer Vision, Deep Learning, Medical Imaging, Remote Sensing
 - 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — a fully offline, 8-bit aesthetic media tracker powered by local AI
 - 🏆 **Thesis Project:** Instance-aware building damage assessment using Mamba state-space models on satellite imagery
-- 🛰️ **Deep Learning:** Automated parasite egg classification achieving 100% accuracy with ConvNeXt-Base + Grad-CAM
+- 🛰️ **Deep Learning:** Automated parasite egg classification achieving **100% accuracy** with ConvNeXt-Base + Grad-CAM
 
 ---
 
@@ -55,11 +55,11 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ## 📊 GitHub Stats
 
-![Aaron's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ggranbell&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Aaron's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ggranbell&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ggranbell&theme=tokyonight&hide_border=true)](https://github.com/ggranbell)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=ggranbell&theme=tokyonight&hide_border=true)](https://github.com/ggranbell)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ggranbell&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/ggranbell)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ggranbell&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400)](https://github.com/ggranbell)
 
 ---
 
