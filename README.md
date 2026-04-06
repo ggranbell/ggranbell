@@ -70,7 +70,7 @@ Building intelligent systems that bridge the gap between research and real-world
 | 🕹️ **[Anime & Manga Tracker](https://github.com/ggranbell/anime-manga-tracker)** | Retro 8-bit offline media tracker with local AI recommendations via Ollama, real-time API data, and full progress tracking — no cloud, no accounts. | `JavaScript` `Vite` |
 | 🛰️ **[Instance-Aware MambaBDA](https://github.com/ggranbell/Instance-Aware-MambaBDA)** | Remote sensing change detection and building damage assessment using ChangeMamba (SSM). Extended with ICR and force-directed feature alignment on the BRIGHT disaster dataset. | `Python` `CUDA` |
 | 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base deep learning pipeline for automated microscopy-based parasite egg classification. 100% accuracy with Grad-CAM XAI + Flask web UI. | `Python` |
-| 💬 **[Chatbot](https://github.com/ggranbell/chatbot)** | Conversational web interface. | `CSS` `JavaScript` |
+| 💬 **[Mola Chatbot](https://github.com/ggranbell/chatbot)** | Local-first RAG chatbot with hybrid BM25 + vector search, Cross-Encoder reranking, and multi-format document ingestion (PDF, DOCX, XLSX). Powered by Ollama — fully private, no cloud. | `Python` `FastAPI` `LangChain` |
 
 ---
 
@@ -120,6 +120,26 @@ Building intelligent systems that bridge the gap between research and real-world
 - 🐳 Fully containerized with Docker
 
 > *Built with Python, PyTorch, ConvNeXt, Flask, Grad-CAM, and Docker.*
+
+---
+
+
+---
+
+## 💬 Mola Chatbot — RAG System
+
+**A high-performance, local-first RAG ecosystem powered by LangChain and Ollama.**
+
+[![Mola Chatbot](https://img.shields.io/badge/💬_Mola_Chatbot-Check_It_Out-orange?style=for-the-badge)](https://github.com/ggranbell/chatbot)
+
+- 🧠 **Local Intelligence** — runs Ollama models (Qwen, Llama 3) entirely on-device, sensitive data never leaves your machine
+- 📂 **Multi-format Ingestion** — handles PDF, Word, and Excel documents with OCR support via Tesseract + PyMuPDF
+- 🔍 **Hybrid Search** — combines BM25 lexical search with LanceDB vector embeddings via `EnsembleRetriever`
+- ⚡ **Cross-Encoder Reranking** — `ms-marco-MiniLM-L-6-v2` validates context relevance before it reaches the LLM
+- 🌐 **FastAPI Backend** — clean REST API with a reactive vanilla JS frontend, served at `localhost:8080`
+- 🛡️ **100% Private** — no cloud, no tracking, all data stays local
+
+> *Built with Python, FastAPI, LangChain, LanceDB, HuggingFace, Ollama, and Tesseract OCR.*
 
 ---
 
