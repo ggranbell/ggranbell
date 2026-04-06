@@ -1,6 +1,6 @@
 # Hey, I'm Aaron 👾
 
-### 🧠 AI Engineer · Systems Engineer · Computer Vision Researcher
+### 🧠 AI Trainer · Systems Engineer · Computer Vision Researcher
 
 > *By day I train neural networks and squash bugs at scale. By night I'm watching anime and grinding through my backlog. The 8-bit aesthetic is not a phase.*
 
