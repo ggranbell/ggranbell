@@ -16,8 +16,8 @@
 
 ```
 NAME    : Aaron James Jayin
-CLASS   : AI Trainer / Systems Engineer / CS Student
-GUILD   : Outlier · JFC Corporation · UST
+CLASS   : AI Engineer / Systems Engineer / CS Student
+GUILD   : Outlier · JFC Corporations · UST
 SCHOOL  : BS Computer Science @ University of Santo Tomas
 SPEC    : Computer Vision · Deep Learning · RAG Systems
 HOBBIES : Anime · Gaming · Building things with 8-bit vibes
@@ -29,7 +29,7 @@ STATUS  : Currently building something retro-cool ↓
 ## 🚀 About Me
 
 - 🎓 **Currently studying:** BS in Computer Science at the University of Santo Tomas
-- 💼 **Currently working as:** **AI Trainer** at Outlier & **Systems Engineer** at JFC Corporations
+- 💼 **Currently working as:** **AI Engineer** at Outlier & **Systems Engineer** at JFC Corporations
 - 🕹️ **Currently building:** [**Retro Anime & Manga Tracker OS**](https://github.com/ggranbell/anime-manga-tracker) — because I needed a way to track my 200+ backlog *and* flex my 8-bit obsession at the same time
 - 🏆 **Thesis:** Building instance-aware building damage assessment from satellite imagery using Mamba state-space models — because apparently looking at disaster zones from space is my thing
 - 🔬 **Side Project:** Got a model to identify parasite eggs with **100% accuracy** — science is cool until you realize what you're looking at
@@ -153,6 +153,19 @@ STATUS  : Currently building something retro-cool ↓
 - 🐳 Fully containerized with Docker
 
 > *Built with Python, PyTorch, ConvNeXt, Flask, Grad-CAM, and Docker.*
+
+---
+
+---
+
+## 🤝 Collaborations
+
+*Projects I co-developed with teammates — proof that I play well with others.*
+
+| Project | Description | Role | Primary Tech |
+| --- | --- | --- | --- |
+| 📊 **[Winners & Losers: COVID-19 Economic Resilience](https://github.com/Mejji/Winners-and-Losers-Visualizing-Global-Economic-Resilience-During-the-COVID-19-Pandemic)** | Data analysis and visualization of global economic resilience across ~200 nations during COVID-19 (2010–2023). Built a composite Resilience Index from World Bank, IMF, and OECD data with choropleth maps, time series, and interactive dashboards. | Co-developer w/ [@Mejji](https://github.com/Mejji) | `Python` `Jupyter` |
+| 🐝 **[BeeHive — Jollibee Quinta System](https://github.com/Mejji/jollibee-Quinta-System-main)** | HR Payroll & Timekeeping system built for Jollibee Quinta Market — manages employee records, time tracking, and payroll processing. | Co-developer w/ [@Mejji](https://github.com/Mejji) | `PHP` `JavaScript` `HTML` `CSS` |
 
 ---
 
