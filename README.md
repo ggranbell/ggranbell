@@ -53,13 +53,13 @@ Building intelligent systems that bridge the gap between research and real-world
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
-![Aaron's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ggranbell&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400)
+[![Aaron's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ggranbell&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ggranbell)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=ggranbell&theme=tokyonight&hide_border=true)](https://github.com/ggranbell)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ggranbell&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400)](https://github.com/ggranbell)
+![](https://img.shields.io/badge/Contributions-Since%202019-0e75b6?style=flat&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Focus-AI%20%7C%20Computer%20Vision%20%7C%20Web-blueviolet?style=flat)
+![](https://img.shields.io/badge/Top%20Languages-Python%20%7C%20JavaScript%20%7C%20CUDA-informational?style=flat)
 
 ---
 
