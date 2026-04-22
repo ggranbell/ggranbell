@@ -87,6 +87,7 @@ STATUS  : Currently building something retro-cool ↓
 | 💬 **[Mola Chatbot](https://github.com/ggranbell/chatbot)** | Local-first RAG chatbot with hybrid BM25 + vector search, Cross-Encoder reranking, and multi-format document ingestion (PDF, DOCX, XLSX). Powered by Ollama — fully private, no cloud. | `Python` `FastAPI` `LangChain` |
 | 🛰️ **[Instance-Aware MambaBDA](https://github.com/ggranbell/Instance-Aware-MambaBDA)** | Remote sensing change detection and building damage assessment using ChangeMamba (SSM). Extended with ICR and force-directed feature alignment on the BRIGHT disaster dataset. | `Python` `CUDA` |
 | 🔬 **[Parasite Egg Classifier](https://github.com/ggranbell/Parasite-Egg-Classifier)** | Thesis: ConvNeXt-Base pipeline for automated microscopy-based parasite egg classification. 100% accuracy with Grad-CAM XAI + Flask web UI. | `Python` |
+| 🫀 **[CAID — Coronary AI Ischemia Detector](https://github.com/ggranbell/CAID-Coronary-AI-Ischemia-Detector)** | Academic-grade CV system for automated detection of myocardial ischemia from coronary angiography images. ConvNeXt V2 backbone with Grad-CAM XAI, ROC/AUC analysis, and a Flask web UI. | `Python` `PyTorch` |
 
 ---
 
@@ -153,6 +154,22 @@ STATUS  : Currently building something retro-cool ↓
 - 🐳 Fully containerized with Docker
 
 > *Built with Python, PyTorch, ConvNeXt, Flask, Grad-CAM, and Docker.*
+
+---
+
+## 🫀 CAID — Coronary AI Ischemia Detector
+
+**Because your heart deserves better than a misread angiogram.**
+
+[![CAID](https://img.shields.io/badge/🫀_CAID_Ischemia_Detector-Check_It_Out-red?style=for-the-badge)](https://github.com/ggranbell/CAID-Coronary-AI-Ischemia-Detector)
+
+- 🏥 **Binary Ischemia Detection** — classifies coronary angiography images as Positive (ischemia) or Negative using a fine-tuned **ConvNeXt V2** backbone
+- 💡 **Grad-CAM XAI** — highlights the coronary arteries and stenoses the model actually relies on, not just vibes
+- 🌐 **Flask Web UI** — dark-themed drag-and-drop interface with real-time classification, probability charts, and Grad-CAM heatmap display
+- 📊 **Academic Analysis Suite** — multi-seed statistical reporting, ROC/AUC curves, t-SNE feature embeddings, and computational cost profiling
+- 🔁 **Reproducible Science** — fixed seeds, stratified splits, and manifest-based data loading so every run matches
+
+> *Built with Python, PyTorch, ConvNeXt V2, timm, Flask, OpenCV, and Grad-CAM.*
 
 ---
 
